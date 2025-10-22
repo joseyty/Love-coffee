@@ -48,6 +48,15 @@ input{
 }
 
 .Grilcoffe{
+    position:fixed;
+  
  width: 700px;
  height: auto;
+ 
+}
+
+.canto{
+   
+    right: 0;
+    top: 0;
 }
