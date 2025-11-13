@@ -1,9 +1,9 @@
 
 function  adicionarTarefa(){
-  let inputTarefa = document.getElementById("inputTarefa")
+  const inputTarefa = document.getElementById("inputTarefa")
   let tarefa = inputTarefa.value;
 
-  let mensagem = document.getElementById("mensagem")
+  const mensagem = document.getElementById("mensagem")
   
   if(tarefa ===""){
    let mensagemErro = "Erro: por favor, digite uma tarefa válida.";
@@ -12,8 +12,8 @@ function  adicionarTarefa(){
   } else{
    let mensagemSucesso = "tarefa adicionada com sucesso!";
    mensagem.textContent = mensagemSucesso;
-   let listaTarefas = document.getElementById("listaTarefas")
-    let novaTarefa= document.createElement("li")
+   const listaTarefas = document.getElementById("listaTarefas")
+    const novaTarefa= document.createElement("li")
     novaTarefa.textContent = tarefa
     listaTarefas.appendChild(novaTarefa)
 
