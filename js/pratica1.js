@@ -15,6 +15,7 @@ let mensagem = "tarefa adicionada com sucesso!";
 let mensagemSucesso = "tarefa adicionada com sucesso!";
   
     document.getElementById("mensagem").textContent = mensagemSucesso;
+    return
   }
 
  
