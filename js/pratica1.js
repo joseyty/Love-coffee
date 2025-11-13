@@ -7,7 +7,7 @@ function  adicionarTarefa(){
   if(tarefa ===""){
    let mensagemErro = "Erro: por favor, digite uma tarefa válida.";
    document.getElementById("mensagem").textContent = mensagemErro
-     
+      return
   } else{
    let mensagemSucesso = "tarefa adicionada com sucesso!";
     document.getElementById("mensagem").textContent = mensagemSucesso;
