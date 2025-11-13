@@ -8,10 +8,12 @@ function  adicionarTarefa(){
   if(tarefa ===""){
    let mensagemErro = "Erro: por favor, digite uma tarefa válida.";
    mensagem.textContent = mensagemErro
+   mensagem.style.color = "red"
       return
   } else{
    let mensagemSucesso = "tarefa adicionada com sucesso!";
    mensagem.textContent = mensagemSucesso;
+   mensagem.style.color = "green"
    const listaTarefas = document.getElementById("listaTarefas")
     const novaTarefa= document.createElement("li")
     novaTarefa.textContent = tarefa
