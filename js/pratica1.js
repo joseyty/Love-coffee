@@ -1,21 +1,17 @@
 
 function  adicionarTarefa(){
-let mensagem = "tarefa adicionada com sucesso!";
-
- let inputTarefa = document.getElementById("inputTarefa")
-  
+  let inputTarefa = document.getElementById("inputTarefa")
   let tarefa = inputTarefa.value;
 
 
   if(tarefa ===""){
    let mensagemErro = "Erro: por favor, digite uma tarefa válida.";
    document.getElementById("mensagem").textContent = mensagemErro
-     return
+     
   } else{
-let mensagemSucesso = "tarefa adicionada com sucesso!";
-  
+   let mensagemSucesso = "tarefa adicionada com sucesso!";
     document.getElementById("mensagem").textContent = mensagemSucesso;
-    return
+    
   }
 
  
