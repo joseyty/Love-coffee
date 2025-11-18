@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color: #ffffff;
-    color: #333;
+    background-color: #583314;
+ 
 }
 
 header {
-    background-color: #000000;
+    background-color: #b9653e;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -49,3 +49,36 @@ main {
     text-align: center;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #050505;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+
+
+button {
+    background-color: #b9653e;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+button:hover{
+    background-color: #3d2500;
+    
+}
