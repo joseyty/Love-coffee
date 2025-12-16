@@ -82,3 +82,10 @@ button:hover{
     background-color: #3d2500;
     
 }
+
+
+img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
