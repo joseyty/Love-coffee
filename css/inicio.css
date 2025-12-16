@@ -1,0 +1,18 @@
+    
+    body{
+        background-color: black;
+    }
+    
+    
+    
+    img {
+        width: 600px; /* Ajuste o tamanho conforme necessário */
+        filter: grayscale(100%); /* Preto e branco */
+        transition: filter 0.5s ease; /* Suaviza a transição */
+        cursor: pointer; /* Mostra que é interativo */
+    }
+
+    /* Quando o mouse passa por cima */
+    img:hover {
+        filter: grayscale(0%); /* Volta a ser colorida */
+    }
