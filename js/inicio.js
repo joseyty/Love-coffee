@@ -2,7 +2,7 @@
 function controlaBanner(id, inicio, fim) {
   const banner = document.getElementById(id);
   const agora = new Date();
-
+       //cria uma ordem a ser seguida
   if (agora >= inicio && agora < fim) {
     banner.classList.add("liberado");
     banner.classList.remove("bloqueado");
