@@ -105,8 +105,8 @@ P{
 }
 
 .hollowice{
-    width: 90%;
+    width: 100vw;
     height: 400px;
     margin-top: 20px;
-    margin-right: 100px;
+    float: left;
 }
