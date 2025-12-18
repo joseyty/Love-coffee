@@ -1,18 +1,26 @@
-    
-    body{
-        background-color: black;
-    }
-    
-    
-    
-    img {
-        width: 600px; /* Ajuste o tamanho conforme necessário */
-        filter: grayscale(100%); /* Preto e branco */
-        transition: filter 0.5s ease; /* Suaviza a transição */
-        cursor: pointer; /* Mostra que é interativo */
-    }
+      
+body {
+  background-color: black;
+}
 
-    /* Quando o mouse passa por cima */
-    img:hover {
-        filter: grayscale(0%); /* Volta a ser colorida */
-    }
+img {
+  width: 600px;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+
+/* cor só quando estiver LIBERADO */
+.liberado img:hover {
+  filter: grayscale(0%);
+}
+
+/* quando BLOQUEADO não clica */
+.bloqueado img {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* quando LIBERADO vira clicável */
+.liberado img {
+  cursor: pointer;
+}
