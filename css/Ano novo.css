@@ -95,3 +95,25 @@ img{
     height: 500px;
     margin-bottom: 20px;
 }
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .container,.container2{
+         display:block;
+    background-image: none;
+
+    }
+
+    .container_imagem{
+        width: 50vw;
+
+
+    }
+
+    .container_caixa{
+        margin: 2em 2em;
+    }
+}

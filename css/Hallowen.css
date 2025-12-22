@@ -141,3 +141,22 @@ P{
     width: 150px;
     height: 150px;
 }
+
+
+@media screen and (max-widht: 768px){
+    .container{
+    display:block;
+    background-image: none;
+
+    }
+
+    .container_imagem{
+        width: 50vw;
+
+
+    }
+
+    .container_caixa{
+        margin: 2em 2em;
+    }
+}
