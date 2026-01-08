@@ -1,7 +1,7 @@
 function comprarItem(){
  let estoque =10;
 
- let full= "Estoque cheio";
+
 
      if( estoque >=10){
     let cafe = "cafe comprado com sucesso";

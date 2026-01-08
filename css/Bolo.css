@@ -22,7 +22,7 @@ ul,li{
    margin-left: auto; 
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 
@@ -75,3 +75,27 @@ h3{
     color: #333;
 }
 
+
+
+
+@media screen and (max-width: 768px){
+    .container,.container2{
+         display:block;
+    background-image: none;
+
+    }
+
+    .container_imagem{
+        width: 50vw;
+
+
+    }
+
+    .container_caixa{
+        margin: 2em 2em;
+    }
+
+    header{
+  
+    }
+}
