@@ -24,3 +24,8 @@ img {
 .liberado img {
   cursor: pointer;
 }
+
+
+.sempreColorido img {
+  filter: grayscale(0%) !important; /* força sempre colorido */
+}
