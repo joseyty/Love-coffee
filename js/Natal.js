@@ -52,5 +52,20 @@ function comprarItem3(){
    }
 
 
+}
 
+
+
+function comprarItem4(){
+ let estoque= 10;
+
+   if(estoque>=10){
+      let certo= "Bolo comprado com sucesso";
+      document.getElementById("mensagem4").textContent= certo;
+      mensagem4.style.color="green";
+   } else if(estoque===0){
+      let erro= "Fora de estoque";
+      document.getElementById("mensagem4").textContent= erro;
+      mensagem4.style.color="red";
+   }
 }
