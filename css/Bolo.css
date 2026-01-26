@@ -10,19 +10,7 @@
 body{
 
       background-color: rgb(240, 201, 208);
-}
-
-header {
-  background-color: aliceblue;
-    
-}
-
-
-ul,li{
-   margin-left: auto; 
-    list-style: none;
-    display: flex;
-    gap: 10px;
+        font-family: 'Arial', sans-serif;
 }
 
 
@@ -77,6 +65,13 @@ h3{
 
 
 
+.bolo{
+
+        width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
 
 @media screen and (max-width: 768px){
     .container,.container2{
@@ -95,5 +90,12 @@ h3{
         margin: 2em 2em;
     }
 
+    
+.bolo{
+
+        width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
   
 }
