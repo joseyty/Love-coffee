@@ -99,11 +99,16 @@ h3{
     color: #333;
 }
 
-
+.vertical{
+    width: 20%;
+   margin-left: 75%;
+    border-radius: 15px;
+    
+}
 
 .bolo{
 
-        width: 100%;
+    width: 100%;
     height: 500px;
     margin-bottom: 20px;
 }
@@ -150,6 +155,8 @@ button:hover{
 }
   
 }
+
+
 
 /* fonts CSS */
 
